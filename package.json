@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "db": "json-server -w db.json",
+    "db2": "json-server -w db2.json",
     "tunnel": "ngrok http 3000"
   },
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "axios": "^0.22.0",
     "json-server": "^0.17.0",
+    "lodash": "^4.17.21",
     "ngrok": "^4.2.2"
   }
 }

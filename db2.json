@@ -1,0 +1,42 @@
+{
+  "transaction": [
+    {
+      "id": 1,
+      "note": "T1",
+      "date": "11/11/2021",
+      "amount": 100,
+      "categoryId": 1
+    },
+    {
+      "note": "T2",
+      "amount": -250,
+      "date": "11/09/2021",
+      "id": 2,
+      "categoryId": 1
+    },
+    {
+      "note": "T3",
+      "amount": 600,
+      "date": "09/09/2021",
+      "id": 3,
+      "categoryId": 3
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Education",
+      "color": "orange"
+    },
+    {
+      "name": "Grocery",
+      "id": 2,
+      "color": "lightBlue"
+    },
+    {
+      "name": "Child",
+      "id": 3,
+      "color": "red"
+    }
+  ]
+}
